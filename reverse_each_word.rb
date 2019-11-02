@@ -5,8 +5,7 @@ def reverse_each_word(string)
   test = []
   
   newArr.each do |ele| 
-    test.push( 
-      ele.reverse)
+    test.push(ele.reverse)
   end
   
   test
