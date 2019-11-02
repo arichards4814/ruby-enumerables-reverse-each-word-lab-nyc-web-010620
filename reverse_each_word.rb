@@ -6,7 +6,7 @@ def reverse_each_word(string)
   
   newArr.each do |ele| 
   
-end
+  
   
   
   
