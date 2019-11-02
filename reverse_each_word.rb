@@ -1,6 +1,12 @@
 def reverse_each_word(string)
   
-  string.split(//)
+  
+  newArr = string.split(//)
+  
+  
+  newArr.each do |ele| 
+  
+end
   
   
   
