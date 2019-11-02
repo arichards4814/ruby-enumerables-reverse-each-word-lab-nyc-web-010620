@@ -10,6 +10,8 @@ def reverse_each_word(string)
     test.push(ele.reverse)
   end
   
+  test = test.reverse
+  
   while i < test.length do
 
      string1 = test[i].to_s + " " + string1
