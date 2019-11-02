@@ -8,6 +8,6 @@ def reverse_each_word(string)
     test.push(ele.reverse)
   end
   
-  test
+  test.to_s
   
 end
