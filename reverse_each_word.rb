@@ -12,11 +12,13 @@ def reverse_each_word(string)
   
   test = test.reverse
   
-  while i < test.length do
+  while i < test.length - 1  do
 
      string1 = test[i].to_s + " " + string1
      i += 1
   end
+  
+  string1 = string1 + test[test.length].to_s 
   
   string1
   
