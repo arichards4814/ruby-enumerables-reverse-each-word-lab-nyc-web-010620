@@ -14,7 +14,7 @@ def reverse_each_word(string)
   
   while i < test.length  do
 
-     string1 = test[i].to_s + " " + string1
+     string1 = string1 + " " + test[i].to_s
      i += 1
   end
   
